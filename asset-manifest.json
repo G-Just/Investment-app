@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Investment-app/static/css/main.b53e4c02.css",
+    "main.js": "/Investment-app/static/js/main.63a7fe02.js",
+    "static/media/icon.png": "/Investment-app/static/media/icon.c20da4d5b23f8d49ad00.png",
+    "index.html": "/Investment-app/index.html",
+    "main.b53e4c02.css.map": "/Investment-app/static/css/main.b53e4c02.css.map",
+    "main.63a7fe02.js.map": "/Investment-app/static/js/main.63a7fe02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b53e4c02.css",
+    "static/js/main.63a7fe02.js"
+  ]
+}
