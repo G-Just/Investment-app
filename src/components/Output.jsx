@@ -1,9 +1,8 @@
 import { calculateInvestmentResults, formatter } from "./investment";
 
-export function Output({ data }) {
+export function Output({ inputs }) {
   let totalInterest = 0;
-  let total = data.initialInvestment;
-  console.log(calculateInvestmentResults(data));
+  let total = inputs.initialInvestment;
   return (
     <table id="table">
       <thead>
@@ -16,7 +15,14 @@ export function Output({ data }) {
         </tr>
       </thead>
       <tbody>
-        {calculateInvestmentResults(data).map((entry) => {
+        <tr>
+          <td>0</td>
+          <td>{formatter.format(inputs.initialInvestment)}</td>
+          <td>{formatter.format(0)}</td>
+          <td>{formatter.format(0)}</td>
+          <td>{formatter.format(inputs.initialInvestment)}</td>
+        </tr>
+        {calculateInvestmentResults(inputs).map((entry) => {
           return (
             <tr>
               <td>{entry.year}</td>

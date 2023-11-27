@@ -1,15 +1,7 @@
-import { useState } from "react";
-import { Output } from "./Output";
 import Image from "../assets/icon.png";
 
-export function InputBox() {
-  const [inputs, setInputs] = useState({
-    initialInvestment: 0,
-    annualInvestment: 0,
-    expectedReturn: 0,
-    duration: 0,
-  });
-
+export function InputBox({ inputs, setInputs }) {
+  console.log(inputs);
   return (
     <>
       <div id="main">
@@ -68,7 +60,6 @@ export function InputBox() {
           </div>
         </div>
       </div>
-      <Output data={inputs} />
     </>
   );
 }
