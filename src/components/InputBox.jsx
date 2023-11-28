@@ -9,7 +9,7 @@ export function InputBox({ inputs, setInputs }) {
         <h1>Investment Calculator</h1>
         <div id="input-box">
           <div className="input-container">
-            <label>Initial investment</label>
+            <label>Initial investment ($)</label>
             <input
               type="number"
               name="initialInvestment"
@@ -23,7 +23,7 @@ export function InputBox({ inputs, setInputs }) {
             />
           </div>
           <div className="input-container">
-            <label>Annual investment</label>
+            <label>Annual investment ($)</label>
             <input
               type="number"
               name="annualInvestment"
@@ -37,7 +37,7 @@ export function InputBox({ inputs, setInputs }) {
             />
           </div>
           <div className="input-container">
-            <label>Expected return</label>
+            <label>Expected return (%)</label>
             <input
               type="number"
               name="expectedReturn"
@@ -48,7 +48,7 @@ export function InputBox({ inputs, setInputs }) {
             />
           </div>
           <div className="input-container">
-            <label>Duration</label>
+            <label>Duration (years)</label>
             <input
               type="number"
               name="duration"
