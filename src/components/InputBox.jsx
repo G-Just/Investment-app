@@ -53,9 +53,7 @@ export function InputBox({ inputs, setInputs }) {
               type="number"
               name="duration"
               id="duration"
-              onChange={(e) =>
-                setInputs({ ...inputs, duration: Number(e.target.value) })
-              }
+              onChange={(e) => setInputs({ ...inputs, duration: Number(e.target.value) })}
             />
           </div>
         </div>
