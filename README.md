@@ -2,12 +2,6 @@
 
 ![image](https://github.com/G-Just/Investment-app/assets/135387482/a5feb316-31ab-40c7-9def-99479a194b39)
 
-## Table of contents
-
-- [The challenge](#the-challenge)
-- [Links](#links)
-- [Author](#author)
-
 ## Overview
 
 ### The challenge
